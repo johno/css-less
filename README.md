@@ -16,6 +16,28 @@ var cssLess = require('css-less')
 cssLess()  // => true
 ```
 
+#### Input
+
+```css
+:root {
+  --foo: red;
+}
+
+.foo {
+  color: var(--red);
+}
+```
+
+#### Output
+
+```less
+@foo: red;
+
+.foo {
+  color: @foo;
+}
+```
+
 ## License
 
 MIT
