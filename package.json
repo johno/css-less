@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/johnotander/css-less",
   "dependencies": {
-    "css-variable": "^1.0.0",
-    "is-css-root": "^1.0.0",
-    "postcss": "^5.0.8"
+    "css-variable": "^1.0.1",
+    "is-css-root": "^1.0.1",
+    "postcss": "^5.0.10"
   },
   "devDependencies": {
     "tape": "*",
